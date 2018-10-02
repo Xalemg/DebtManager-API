@@ -1,0 +1,31 @@
+{
+  "name": "pagadeudas",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.9.4"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/api/server.js",
+    "test": "nodemon src/api/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xalemg/PagaDeudas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xalemg/PagaDeudas/issues"
+  },
+  "homepage": "https://github.com/Xalemg/PagaDeudas#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.13",
+    "morgan": "^1.9.0"
+  }
+}
