@@ -2,10 +2,6 @@
 
 <p>Puedes probar una demo de esta API en: <a>https://deduas-api.herokuapp.com/</a></p>
 
-<h2> Implementación </h2>
-<p> Para poder implementar el servidor será necesario modificar las variables ambientales del fichero settings en <code> /settings/settings.js</code>. Añadiendo tu dirección de tu BBDD y una sal propia para la encriptación. </p>
-
-
 <p>Desarrollada en Node.js y utilizando una base de datos mongoDB, siendo totalmente segura al utilizar jwt
 y almacenando y validando las contraseñas con fuciones hash.
 </p>
@@ -13,6 +9,9 @@ y almacenando y validando las contraseñas con fuciones hash.
 <p>El principal motivo para haber realizado esta API es para la posterior creación de una web app o aplicación que se sirva de ella.
 Para la gestión de la seguridad al haber optado por el uso de jwt hace necesario el envio de tokens de indentificación para
 todas las rutas restringidas a los usuarios.</p>
+
+<h2> Implementación </h2>
+<p> Para poder implementar el servidor será necesario modificar las variables ambientales del fichero settings en <code> /settings/settings.js</code>. Añadiendo tu dirección de tu BBDD y una sal propia para la encriptación. </p>
 
 <h2> Objetos </h2>
 <p>A continuacion describiremos los parametros de todos los objetos que se almacenan en la base de datos:</p>
