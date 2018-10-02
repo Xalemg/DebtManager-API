@@ -1,5 +1,11 @@
 <h1>Restful API para un servicio de gestión de deudas entre amigos</h1>
 
+<p>Puedes probar una demo de esta API en: <a>https://deduas-api.herokuapp.com/</a></p>
+
+<h2> Implementación </h2>
+<p> Para poder implementar el servidor será necesario modificar las variables ambientales del fichero settings en <code> /settings/settings.js</code>. Añadiendo tu dirección de tu BBDD y una sal propia para la encriptación. </p>
+
+
 <p>Desarrollada en Node.js y utilizando una base de datos mongoDB, siendo totalmente segura al utilizar jwt
 y almacenando y validando las contraseñas con fuciones hash.
 </p>
